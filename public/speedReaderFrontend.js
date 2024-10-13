@@ -23,7 +23,7 @@ startButton.addEventListener("click", async () => {
   const text = inputText.value;
 
   // Send text input to the backend API for processing
-  const response = await fetch("/process_text", {
+  const response = await fetch("/api/process_text", {
     method: "POST",
     body: JSON.stringify({ text }),
     headers: { "Content-Type": "application/json" },

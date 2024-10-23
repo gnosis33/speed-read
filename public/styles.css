@@ -19,6 +19,11 @@ h1 {
   letter-spacing: 3px;
 }
 
+img {
+  width: 300px;
+  height: auto; /* Maintains aspect ratio */
+}
+
 textarea {
   width: 40%;
   height: 100px;
